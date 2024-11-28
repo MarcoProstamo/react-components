@@ -22,4 +22,13 @@ body {
 
 .bg-dark {
   background-color: #2f2f2f;
+  color: #e5e5e5;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.px-3 {
+  padding: 0 3rem;
 }
