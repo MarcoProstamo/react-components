@@ -1,9 +1,9 @@
-import Button from "./Button/Button";
+import Button from "./Button";
 
 export default function Card() {
   return (
     <>
-      <div className="card my-5 center ">
+      <div className="card">
         <div className="card-image">
           <img
             src="https://placehold.co/600x400/EEE/31343C"
