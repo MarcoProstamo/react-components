@@ -16,6 +16,10 @@ body {
 }
 
 /* # Utils */
+.center {
+  margin: 0 auto;
+}
+
 .text-center {
   text-align: center;
 }
@@ -25,10 +29,56 @@ body {
   color: #e5e5e5;
 }
 
+.my-5 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .py-3 {
-  padding: 3rem 0;
+  padding: 1.5rem 0;
 }
 
 .px-3 {
-  padding: 0 3rem;
+  padding: 0 1.5rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* # Layout */
+main {
+  width: 100vw;
+  height: 100%;
+}
+
+/* # Card */
+.card {
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 1rem;
+}
+
+.card-image {
+  overflow: hidden;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-content {
+  margin: 0.5rem 1rem;
+}
+
+.card-content > p {
+  margin: 1rem 0;
+}
+
+/* # Button */
+.btn {
+  border-radius: 0;
+  border: 0;
+  background-color: #daa420;
+  padding: 0.5rem;
+  cursor: pointer;
 }
