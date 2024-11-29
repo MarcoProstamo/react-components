@@ -46,6 +46,10 @@ body {
   text-transform: uppercase;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /* # Layout */
 .wrapper {
   display: flex;

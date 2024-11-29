@@ -1,10 +1,11 @@
 export default function Filter({ tagsList }) {
   return (
     <>
-      <section>
-        <p className="text-center">TODO: Filtering Tags</p>
+      <section className="text-center my-5">
         {tagsList.map((tag, index) => (
-          <span key={index}>{tag}</span>
+          <span key={index} className={`badge-${tag} px-3 cursor-pointer`}>
+            {tag}
+          </span>
         ))}
       </section>
     </>
