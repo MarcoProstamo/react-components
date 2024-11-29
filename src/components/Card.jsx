@@ -1,14 +1,13 @@
 import Button from "./Button";
 
+const defaultImgPath = "https://placehold.co/600x400";
+
 export default function Card() {
   return (
     <>
       <div className="card">
         <div className="card-image">
-          <img
-            src="https://placehold.co/600x400/EEE/31343C"
-            alt="place-holder"
-          />
+          <img src={defaultImgPath} alt="place-holder" />
         </div>
         <div className="card-content">
           <h4>Titolo del Post</h4>
