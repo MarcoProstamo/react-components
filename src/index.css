@@ -94,7 +94,8 @@ body {
 }
 
 .card-content > p {
-  margin: 1rem 0;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* # Button */
@@ -105,4 +106,49 @@ body {
   padding: 0.2rem 0.4rem;
   font-size: 0.7rem;
   cursor: pointer;
+}
+
+/* # Badge */
+.badge-html {
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: greenyellow;
+  color: black;
+  margin: 0 0.2rem;
+}
+
+.badge-css {
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: pink;
+  color: black;
+  margin: 0 0.2rem;
+}
+
+.badge-js {
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: red;
+  color: black;
+  margin: 0 0.2rem;
+}
+
+.badge-php {
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: yellow;
+  color: black;
+  margin: 0 0.2rem;
 }

@@ -1,8 +1,11 @@
-export default function Filter() {
+export default function Filter({ tagsList }) {
   return (
     <>
       <section>
-        <h1 className="text-center py-3">Tags Filtranti da Fare</h1>
+        <p className="text-center">TODO: Filtering Tags</p>
+        {tagsList.map((tag, index) => (
+          <span key={index}>{tag}</span>
+        ))}
       </section>
     </>
   );

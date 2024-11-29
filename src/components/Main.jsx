@@ -6,14 +6,19 @@ export default function Main() {
   return (
     <>
       <main>
-        <Filter />
+        <Filter tagsList={[]} />
         <div className="card-container">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {posts
+            .filter((post) => post.published)
+            .map((post) => (
+              <Card
+                key={post.id}
+                title={post.title}
+                image={post.image}
+                content={post.content}
+                tags={post.tags}
+              />
+            ))}
         </div>
       </main>
     </>
